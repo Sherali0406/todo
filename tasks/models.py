@@ -5,7 +5,7 @@ from django.utils import timezone
 class Task(models.Model):
     EXMP_CHOICES = [
         ('todo', 'To Do'),
-        ('in progress', 'In Progress'),
+        ('in_progress', 'In Progress'),
         ('done', 'Done')
     ]
 
